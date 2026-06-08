@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+        }
+
+        @media(max-width:768px){
+            nav a{
+                display:block;
+                margin:10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My E-Commerce Store</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Welcome</h2>
+    <p>Compatibility Testing Demo Page</p>
+    <button onclick="showMessage()">Shop Now</button>
+</div>
+
+<script>
+function showMessage() {
+    alert("Welcome to our store!");
+}
+</script>
+
+</body>
+</html>
